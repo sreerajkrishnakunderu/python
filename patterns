@@ -1,4 +1,4 @@
-PROBLEM:
+PROBLEM 1:
 ---------
 Write a Python Program to solve the pattern in dynamic.
 
@@ -15,3 +15,79 @@ Sample Output 1:
  n=int(input())
 for i in range(n):
     print("*"*n)
+    
+    
+PROBLEM 2:
+---------
+Write a Python program to print the given pattern from user-defined values(dynamic values)
+
+Sample Input 1:
+5
+Sample Output 1:
+11111
+22222
+33333
+44444
+55555
+SOLUTION:
+-----------
+n=int(input())
+for i in range(1,n+1):
+    print(f"{i}"*n)
+
+PROBLEM 3:
+----------
+Write a Python program to print the given pattern from user-defined values(dynamic values).
+
+Sample input 1:
+5
+Sample output 1:
+*
+**
+***
+****
+***** 
+SOLUTION:
+----------
+n=int(input())
+for i in range(1,n+1):
+    print("*"*i)
+ 
+PROBLEM 4:
+----------
+Write a Python program to print the given pattern from user-defined values(dynamic values).
+
+Sample input 1:
+5
+Sample output 1:
+*****
+****
+***
+**
+*
+SOLUTION:
+-----------
+n=int(input())
+for i in reversed(range(1,n+1)):
+    print("*"*i)
+    
+PROBLEM 5:
+----------
+Write a Python program to print the given pattern from user-defined values(dynamic values).
+
+Sample input 1:
+5
+Sample output 1:
+    *
+   **
+  ***
+ ****
+*****
+SOLUTION:
+--------
+n=int(input())
+for i in range(n):
+    print(" "*(n-i-1)+"*"*(i+1))
+    
+PROBLEM 6:
+----------
